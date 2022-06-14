@@ -27,8 +27,7 @@ namespace MyFunctions {
 	// выдача рекомендации для применения выгодной скидки
 	void Recomendation(const short& recomend)
 	{
-		switch (recomend)
-		{
+		switch (recomend) {
 		case -1:
 			std::cout << "|RECOMENDATION:                                                             |\n";
 			std::cout << "|To take advantage of the discounts we offer, you must have the highest     |\n";
